@@ -1,0 +1,12 @@
+
+
+OPTION psf_version = 2.1;
+
+BEGIN DRIVER read_adapter
+	OPTION supported_peripherals = (read_adapter);
+	OPTION copyfiles = all;
+	OPTION VERSION = 1.0;
+	OPTION NAME = read_adapter;
+END DRIVER
+
+

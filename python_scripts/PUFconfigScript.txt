@@ -1,0 +1,9 @@
+setTargetFile test3.txt
+TCsetTempWait 25                                                                                                                                                                                                                                                                                                   
+writeLine Current Chamber Temperature: 25
+setChoice 2 0
+setTune 0x6 0x13
+setPattern -t 0x0 0x0
+setPattern -b 0x0 0x0
+getReadout -tune -temp -ch 100
+exit
